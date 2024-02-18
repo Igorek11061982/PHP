@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RUSSIA.COM</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h2>Введите свои данные:</h2>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<form action="display.php" method="POST">
+    <div class="input-group">
+        <span class="input-group-text">Имя и фамилия</span>
+        <input type="text" name="firstname" aria-label="Имя" class="form-control">
+        <input type="text" name="lastname" aria-label="Фамилия" class="form-control">
+        
+      </div>
+      <p>Число строк: <input type="text" name="rows" /></p>
+      <p>Число столбцов: <input type="text" name="columns" /></p>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </div>
+</form>
+</body>
+</html>

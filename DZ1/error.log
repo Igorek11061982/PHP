@@ -1,0 +1,47 @@
+[Wed Feb 14 19:39:41.836462 2024] [core:warn] [pid 20488:tid 356] AH00098: pid file D:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 14 19:39:41.856466 2024] [mpm_winnt:notice] [pid 20488:tid 356] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Wed Feb 14 19:39:41.856466 2024] [mpm_winnt:notice] [pid 20488:tid 356] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Wed Feb 14 19:39:41.856466 2024] [core:notice] [pid 20488:tid 356] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Wed Feb 14 19:39:41.860987 2024] [mpm_winnt:notice] [pid 20488:tid 356] AH00418: Parent: Created child process 19880
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 19880:tid 372] AH00354: Child: Starting 64 worker threads.
+[Wed Feb 14 19:39:50.961762 2024] [mpm_winnt:notice] [pid 20488:tid 356] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 14 19:39:52.973479 2024] [mpm_winnt:notice] [pid 19880:tid 372] AH00364: Child: All worker threads have exited.
+[Wed Feb 14 19:39:53.002761 2024] [mpm_winnt:notice] [pid 20488:tid 356] AH00430: Parent: Child process 19880 exited successfully.
+[Wed Feb 14 19:55:45.610782 2024] [mpm_winnt:notice] [pid 848:tid 400] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Wed Feb 14 19:55:45.610782 2024] [mpm_winnt:notice] [pid 848:tid 400] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Wed Feb 14 19:55:45.610782 2024] [core:notice] [pid 848:tid 400] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Wed Feb 14 19:55:45.615792 2024] [mpm_winnt:notice] [pid 848:tid 400] AH00418: Parent: Created child process 5984
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 5984:tid 352] AH00354: Child: Starting 64 worker threads.
+[Wed Feb 14 20:04:50.400274 2024] [mpm_winnt:notice] [pid 848:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 14 20:04:52.418729 2024] [mpm_winnt:notice] [pid 5984:tid 352] AH00364: Child: All worker threads have exited.
+[Wed Feb 14 20:04:52.449841 2024] [mpm_winnt:notice] [pid 848:tid 400] AH00430: Parent: Child process 5984 exited successfully.
+[Fri Feb 16 13:53:02.639091 2024] [mpm_winnt:notice] [pid 19476:tid 356] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Fri Feb 16 13:53:02.640086 2024] [mpm_winnt:notice] [pid 19476:tid 356] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Fri Feb 16 13:53:02.640086 2024] [core:notice] [pid 19476:tid 356] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Fri Feb 16 13:53:02.650111 2024] [mpm_winnt:notice] [pid 19476:tid 356] AH00418: Parent: Created child process 3368
+[Fri Feb 16 13:53:02.947199 2024] [mpm_winnt:notice] [pid 3368:tid 388] AH00354: Child: Starting 64 worker threads.
+[Fri Feb 16 14:53:09.467605 2024] [php:error] [pid 3368:tid 1120] [client ::1:54830] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in D:\\PHP Projects\\display.php:4\nStack trace:\n#0 {main}\n  thrown in D:\\PHP Projects\\display.php on line 4, referer: http://localhost/index.html
+[Fri Feb 16 15:39:50.125229 2024] [php:error] [pid 3368:tid 1116] [client ::1:51560] PHP Parse error:  syntax error, unexpected variable "$surname", expecting ")" in D:\\PHP Projects\\display.php on line 11, referer: http://localhost/index.html
+[Fri Feb 16 15:40:50.738033 2024] [php:error] [pid 3368:tid 1116] [client ::1:51572] PHP Parse error:  syntax error, unexpected variable "$surname", expecting ")" in D:\\PHP Projects\\display.php on line 11, referer: http://localhost/index.html
+[Fri Feb 16 15:43:55.801276 2024] [php:error] [pid 3368:tid 1120] [client ::1:51768] PHP Parse error:  syntax error, unexpected variable "$surname", expecting ")" in D:\\PHP Projects\\display.php on line 11, referer: http://localhost/index.html
+[Fri Feb 16 19:13:59.807306 2024] [php:error] [pid 3368:tid 1100] [client ::1:58742] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in D:\\PHP Projects\\display.php:5\nStack trace:\n#0 {main}\n  thrown in D:\\PHP Projects\\display.php on line 5, referer: http://localhost/index.html
+[Fri Feb 16 19:16:27.733264 2024] [php:error] [pid 3368:tid 1088] [client ::1:58784] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in D:\\PHP Projects\\display.php:5\nStack trace:\n#0 {main}\n  thrown in D:\\PHP Projects\\display.php on line 5, referer: http://localhost/index.html
+[Fri Feb 16 19:17:48.956320 2024] [php:error] [pid 3368:tid 1100] [client ::1:59108] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in D:\\PHP Projects\\display.php:5\nStack trace:\n#0 {main}\n  thrown in D:\\PHP Projects\\display.php on line 5, referer: http://localhost/index.html
+[Fri Feb 16 19:19:18.146783 2024] [php:error] [pid 3368:tid 1088] [client ::1:59408] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in D:\\PHP Projects\\display.php on line 5, referer: http://localhost/index.html
+[Fri Feb 16 19:21:21.284169 2024] [php:error] [pid 3368:tid 1100] [client ::1:59423] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in D:\\PHP Projects\\display.php:5\nStack trace:\n#0 {main}\n  thrown in D:\\PHP Projects\\display.php on line 5, referer: http://localhost/index.html
+[Sun Feb 18 14:48:54.548813 2024] [php:error] [pid 3368:tid 1100] [client ::1:53504] PHP Parse error:  syntax error, unexpected identifier "px" in D:\\PHP Projects\\display.php on line 3, referer: http://localhost/index.html
+[Sun Feb 18 14:53:02.228214 2024] [php:error] [pid 3368:tid 1088] [client ::1:53809] PHP Parse error:  syntax error, unexpected identifier "px" in D:\\PHP Projects\\display.php on line 3, referer: http://localhost/index.html
+[Sun Feb 18 14:54:26.938431 2024] [php:error] [pid 3368:tid 1100] [client ::1:53820] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in D:\\PHP Projects\\display.php:5\nStack trace:\n#0 {main}\n  thrown in D:\\PHP Projects\\display.php on line 5, referer: http://localhost/index.html
+[Sun Feb 18 14:59:12.093791 2024] [php:error] [pid 3368:tid 1088] [client ::1:53934] PHP Parse error:  syntax error, unexpected end of file, expecting "," or ";" in D:\\PHP Projects\\display.php on line 17, referer: http://localhost/index.html
+[Sun Feb 18 15:20:12.292581 2024] [php:error] [pid 3368:tid 1088] [client ::1:54170] PHP Fatal error:  Uncaught Error: Call to undefined function mb_substr() in D:\\PHP Projects\\display.php:12\nStack trace:\n#0 {main}\n  thrown in D:\\PHP Projects\\display.php on line 12, referer: http://localhost/index.html
+[Sun Feb 18 15:20:31.063145 2024] [php:error] [pid 3368:tid 1100] [client ::1:54171] PHP Fatal error:  Uncaught Error: Call to undefined function mb_substr() in D:\\PHP Projects\\display.php:12\nStack trace:\n#0 {main}\n  thrown in D:\\PHP Projects\\display.php on line 12, referer: http://localhost/index.html
+[Sun Feb 18 16:04:36.328988 2024] [php:warn] [pid 3368:tid 1088] [client ::1:54776] PHP Warning:  Undefined array key "rows" in D:\\PHP Projects\\display.php on line 30, referer: http://localhost/index.html
+[Sun Feb 18 16:05:39.057760 2024] [php:warn] [pid 3368:tid 1088] [client ::1:54782] PHP Warning:  Undefined array key "rows" in D:\\PHP Projects\\display.php on line 30, referer: http://localhost/index.html
+[Sun Feb 18 16:06:42.037308 2024] [php:warn] [pid 3368:tid 1100] [client ::1:54796] PHP Warning:  Undefined array key "rows" in D:\\PHP Projects\\display.php on line 32, referer: http://localhost/index.html
+[Sun Feb 18 16:11:12.018500 2024] [php:warn] [pid 3368:tid 1088] [client ::1:54829] PHP Warning:  Undefined array key "rows" in D:\\PHP Projects\\display.php on line 4, referer: http://localhost/index.html
+[Sun Feb 18 16:11:12.018500 2024] [php:warn] [pid 3368:tid 1088] [client ::1:54829] PHP Warning:  Undefined array key "columns" in D:\\PHP Projects\\display.php on line 5, referer: http://localhost/index.html
+[Sun Feb 18 16:12:38.193760 2024] [php:warn] [pid 3368:tid 1100] [client ::1:54886] PHP Warning:  Undefined array key "rows" in D:\\PHP Projects\\display.php on line 4, referer: http://localhost/index.html
+[Sun Feb 18 16:12:38.194775 2024] [php:warn] [pid 3368:tid 1100] [client ::1:54886] PHP Warning:  Undefined array key "columns" in D:\\PHP Projects\\display.php on line 5, referer: http://localhost/index.html
+[Sun Feb 18 16:18:44.155172 2024] [php:error] [pid 3368:tid 1100] [client ::1:54926] PHP Parse error:  syntax error, unexpected double-quoted string "<span>@</span>", expecting "," or ";" in D:\\PHP Projects\\display.php on line 35, referer: http://localhost/index.html
